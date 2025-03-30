@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.typed-cursor {
+  color: rgb(182, 182, 182);
+  /* font-weight: bolder; */
+}
+
+.sidebar {
+  z-index: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.slanted-nav {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  background: linear-gradient(
+    160deg,
+    var(--color-accent) 60%,
+    var(--color-accent-2) 40%
+  );
+  /* border-bottom: 12px solid var(--color-secondary); */
+}
+
+.header-box {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), 
+              -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
